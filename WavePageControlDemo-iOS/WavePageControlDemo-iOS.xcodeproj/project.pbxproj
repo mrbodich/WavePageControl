@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E677A5F8285F05B900D1ED48 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E677A5F7285F05B900D1ED48 /* MainViewController.swift */; };
+		E6855D09285F274700DF64C4 /* WavePageControl in Frameworks */ = {isa = PBXBuildFile; productRef = E6855D08285F274700DF64C4 /* WavePageControl */; };
+		E6C946CB28B679A300F0EE93 /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C946CA28B679A300F0EE93 /* CustomPageControl.swift */; };
+		E6C946CD28B6806500F0EE93 /* SimplePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C946CC28B6806500F0EE93 /* SimplePageControl.swift */; };
+		E6C946CF28B6809E00F0EE93 /* PageControlShowcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C946CE28B6809E00F0EE93 /* PageControlShowcase.swift */; };
+		E6C946D228B6839A00F0EE93 /* DefaultPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C946D128B6839A00F0EE93 /* DefaultPageControl.swift */; };
+		E6D6AF8C285E013E006894EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D6AF8B285E013E006894EE /* AppDelegate.swift */; };
+		E6D6AF8E285E013E006894EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D6AF8D285E013E006894EE /* SceneDelegate.swift */; };
+		E6D6AF95285E013F006894EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D6AF94285E013F006894EE /* Assets.xcassets */; };
+		E6D6AF98285E013F006894EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D6AF96285E013F006894EE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E677A5F7285F05B900D1ED48 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E6855D03285F272500DF64C4 /* WavePageControl */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = WavePageControl; path = ..; sourceTree = "<group>"; };
+		E6C946CA28B679A300F0EE93 /* CustomPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
+		E6C946CC28B6806500F0EE93 /* SimplePageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePageControl.swift; sourceTree = "<group>"; };
+		E6C946CE28B6809E00F0EE93 /* PageControlShowcase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlShowcase.swift; sourceTree = "<group>"; };
+		E6C946D128B6839A00F0EE93 /* DefaultPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPageControl.swift; sourceTree = "<group>"; };
+		E6D6AF88285E013E006894EE /* WavePageControlDemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WavePageControlDemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D6AF8B285E013E006894EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6D6AF8D285E013E006894EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E6D6AF94285E013F006894EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6D6AF97285E013F006894EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6D6AF99285E013F006894EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6D6AF85285E013E006894EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6855D09285F274700DF64C4 /* WavePageControl in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6855D02285F272500DF64C4 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				E6855D03285F272500DF64C4 /* WavePageControl */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		E6855D07285F274700DF64C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6C946D028B680A700F0EE93 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				E6C946CE28B6809E00F0EE93 /* PageControlShowcase.swift */,
+				E6C946D128B6839A00F0EE93 /* DefaultPageControl.swift */,
+				E6C946CC28B6806500F0EE93 /* SimplePageControl.swift */,
+				E6C946CA28B679A300F0EE93 /* CustomPageControl.swift */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		E6D6AF7F285E013E006894EE = {
+			isa = PBXGroup;
+			children = (
+				E6855D02285F272500DF64C4 /* Packages */,
+				E6D6AF8A285E013E006894EE /* WavePageControlDemo-iOS */,
+				E6D6AF89285E013E006894EE /* Products */,
+				E6855D07285F274700DF64C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6D6AF89285E013E006894EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6D6AF88285E013E006894EE /* WavePageControlDemo-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6D6AF8A285E013E006894EE /* WavePageControlDemo-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E6D6AF8B285E013E006894EE /* AppDelegate.swift */,
+				E6D6AF8D285E013E006894EE /* SceneDelegate.swift */,
+				E677A5F7285F05B900D1ED48 /* MainViewController.swift */,
+				E6C946D028B680A700F0EE93 /* Examples */,
+				E6D6AF94285E013F006894EE /* Assets.xcassets */,
+				E6D6AF96285E013F006894EE /* LaunchScreen.storyboard */,
+				E6D6AF99285E013F006894EE /* Info.plist */,
+			);
+			path = "WavePageControlDemo-iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6D6AF87285E013E006894EE /* WavePageControlDemo-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D6AF9C285E013F006894EE /* Build configuration list for PBXNativeTarget "WavePageControlDemo-iOS" */;
+			buildPhases = (
+				E6D6AF84285E013E006894EE /* Sources */,
+				E6D6AF85285E013E006894EE /* Frameworks */,
+				E6D6AF86285E013E006894EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WavePageControlDemo-iOS";
+			packageProductDependencies = (
+				E6855D08285F274700DF64C4 /* WavePageControl */,
+			);
+			productName = "WavePageControlDemo-iOS";
+			productReference = E6D6AF88285E013E006894EE /* WavePageControlDemo-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6D6AF80285E013E006894EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E6D6AF87285E013E006894EE = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = E6D6AF83285E013E006894EE /* Build configuration list for PBXProject "WavePageControlDemo-iOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6D6AF7F285E013E006894EE;
+			productRefGroup = E6D6AF89285E013E006894EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6D6AF87285E013E006894EE /* WavePageControlDemo-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6D6AF86285E013E006894EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D6AF98285E013F006894EE /* LaunchScreen.storyboard in Resources */,
+				E6D6AF95285E013F006894EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6D6AF84285E013E006894EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D6AF8C285E013E006894EE /* AppDelegate.swift in Sources */,
+				E6D6AF8E285E013E006894EE /* SceneDelegate.swift in Sources */,
+				E6C946CB28B679A300F0EE93 /* CustomPageControl.swift in Sources */,
+				E6C946D228B6839A00F0EE93 /* DefaultPageControl.swift in Sources */,
+				E6C946CD28B6806500F0EE93 /* SimplePageControl.swift in Sources */,
+				E677A5F8285F05B900D1ED48 /* MainViewController.swift in Sources */,
+				E6C946CF28B6809E00F0EE93 /* PageControlShowcase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6D6AF96285E013F006894EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6D6AF97285E013F006894EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6D6AF9A285E013F006894EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6D6AF9B285E013F006894EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6D6AF9D285E013F006894EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WavePageControlDemo-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bogdan.chornobryvets.WavePageControlDemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E6D6AF9E285E013F006894EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WavePageControlDemo-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bogdan.chornobryvets.WavePageControlDemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6D6AF83285E013E006894EE /* Build configuration list for PBXProject "WavePageControlDemo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D6AF9A285E013F006894EE /* Debug */,
+				E6D6AF9B285E013F006894EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D6AF9C285E013F006894EE /* Build configuration list for PBXNativeTarget "WavePageControlDemo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D6AF9D285E013F006894EE /* Debug */,
+				E6D6AF9E285E013F006894EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E6855D08285F274700DF64C4 /* WavePageControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WavePageControl;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E6D6AF80285E013E006894EE /* Project object */;
+}
