@@ -1,5 +1,10 @@
 # WavePageControl
 
+![Release version](https://img.shields.io/github/v/release/mrbodich/WavePageControl)
+![GitHub license](https://img.shields.io/github/license/mrbodich/WavePageControl)
+![Cocoapods platforms](https://img.shields.io/badge/platform-iOS_13.0+-lightgrey)
+![UIKit support](https://img.shields.io/badge/UIKit-compatible-green)
+
 > WavePageControl allows you to effectively organise the Page Control indicators all at once.
 
  ## How it works
